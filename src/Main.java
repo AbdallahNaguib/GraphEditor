@@ -119,7 +119,7 @@ class Main extends JComponent {
                     , "graph must be weighted");
             return;
         }
-        var res = Algorithms.getMinHamilton(edges,nodes);
+        Pair<ArrayList<Node>,Integer> res = Algorithms.getMinHamilton(edges,nodes);
         if(res.first==null){
             JOptionPane.showMessageDialog(new JFrame()
                     , "graph doesn't has hamilton circuit");

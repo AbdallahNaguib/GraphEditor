@@ -131,8 +131,11 @@ public class Algorithms {
         Pair<ArrayList<Node>,Integer> res = new Pair<>(null,1000000000);
         for(Node node:nodes){
             ArrayList<Node> nodes2=new ArrayList<>(nodes);
+            ArrayList<Node> vis = new ArrayList<>();
+            vis.add(node);
+            nodes2.remove(node);
             Pair<ArrayList<Node>,Integer> res2=
-                    runMinHamilton(edges,nodes2,node,node,new ArrayList<>()
+                    runMinHamilton(edges,nodes2,node,node,vis
                             ,0);
             if(res2.first !=null && res2.second<=res.second){
                 res = res2;
@@ -143,8 +146,6 @@ public class Algorithms {
 
     private static Pair<ArrayList<Node>,Integer> runMinHamilton(ArrayList<Edge> edges
             , ArrayList<Node> nodes,Node start, Node cur, ArrayList<Node> vis,int cost){
-        nodes.remove(cur);
-        vis.add(cur);
         Pair<ArrayList<Node>,Integer> res=new Pair<>(null,1000000000);
         if(nodes.isEmpty()){
             // check if current is connected to the starting point
@@ -152,7 +153,7 @@ public class Algorithms {
             int val=nodeGoesToNode(cur,start,edges);
             if(val != -1){
                 vis.add(start);
-                return new Pair<>(vis,cost+val);
+                return new Pair<>(new ArrayList<>(vis),cost+val);
             }else{
                 return res;
             }
@@ -161,14 +162,16 @@ public class Algorithms {
             int val = nodeGoesToNode(cur,node,edges);
             if(val != -1){
                 ArrayList<Node> nodes2=new ArrayList<>(nodes);
-                Pair<ArrayList<Node>,Integer> res2=runMinHamilton(edges,nodes2,start,node,vis,cost+val);
+                ArrayList<Node> vis2 = new ArrayList<>(vis);
+                nodes2.remove(node);
+                vis2.add(node);
+                Pair<ArrayList<Node>,Integer> res2=runMinHamilton(edges,nodes2,start,node,vis2,cost+val);
                 if(res2.first !=null && res2.second<=res.second){
-                    res = res2;
+                    res.first =new ArrayList<>(res2.first);
+                    res.second = res2.second;
                 }
             }
         }
-        nodes.add(cur);
-        vis.remove(cur);
         return res;
     }
 }
