@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="AlgoAss10:jar3">
+    <output-path>$PROJECT_DIR$/out/artifacts/AlgoAss10_jar3</output-path>
+    <root id="archive" name="AlgoAss10.jar">
+      <element id="module-output" name="AlgoAss10" />
+    </root>
+  </artifact>
+</component>

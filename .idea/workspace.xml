@@ -2,11 +2,25 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="AlgoAss10:jar" />
+      <artifact name="AlgoAss10:jar3" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aec046f5-9fc7-44f6-81f9-05c7e393db9a" name="Default Changelist" comment="" />
+    <list default="true" id="aec046f5-9fc7-44f6-81f9-05c7e393db9a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/AlgoAss10_jar3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algorithms.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AlgoAss10_jar/AlgoAss10.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AlgoAss10_jar/AlgoAss10.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgoAss10/Edge.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgoAss10/Edge.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgoAss10/Main$MouseHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgoAss10/Main$MouseHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgoAss10/Main$MouseMotionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgoAss10/Main$MouseMotionHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgoAss10/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgoAss10/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgoAss10/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgoAss10/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Edge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Edge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Node.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,17 +34,22 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1YoEszhWyeNuGPkkHx7eBPZMGvo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -62,6 +81,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.testGraphDraw" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
@@ -80,11 +103,113 @@
       <option name="presentableId" value="Default" />
       <updated>1583600757349</updated>
       <workItem from="1583600760585" duration="6589000" />
-      <workItem from="1583609724696" duration="14001000" />
+      <workItem from="1583609724696" duration="15471000" />
+      <workItem from="1583680519959" duration="614000" />
+      <workItem from="1583746226885" duration="332000" />
+      <workItem from="1584195932177" duration="11403000" />
+      <workItem from="1584481505489" duration="156000" />
+      <workItem from="1585245956772" duration="2657000" />
+      <workItem from="1585249260903" duration="10132000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="UsagesViewTool">
+    <version id="1" />
+    <tabs />
+    <default_view_options>
+      <options category_option="false" module_option="true" model_option="true" root_option="true" path_option="false" count_option="true" info_option="true" view_searched_nodes_option="true" group_searched_nodes_option="true" autoscroll_option="false" />
+    </default_view_options>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>AlgoAss10:jar3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>AlgoAss10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

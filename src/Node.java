@@ -11,7 +11,22 @@ class Node {
     private int r;
     private boolean selected = false;
     private Rectangle b = new Rectangle();
-
+    Color color =null;
+    /**
+     * Draw this node.
+     */
+    void draw(Graphics g) {
+        if(color == null){
+            color = Color.BLUE;
+        }
+        g.setColor(color);
+        g.drawString(name,b.x,b.y);
+        g.fillOval(b.x, b.y, b.width, b.height);
+        if (selected) {
+            g.setColor(Color.darkGray);
+            g.drawRect(b.x, b.y, b.width, b.height);
+        }
+    }
     /**
      * Construct a new node.
      */
@@ -34,18 +49,7 @@ class Node {
         b.setBounds(p.x - r, p.y - r, 2 * r, 2 * r);
     }
 
-    /**
-     * Draw this node.
-     */
-    void draw(Graphics g) {
-        g.setColor(Color.BLUE);
-        g.drawString(name,b.x,b.y);
-        g.fillOval(b.x, b.y, b.width, b.height);
-        if (selected) {
-            g.setColor(Color.darkGray);
-            g.drawRect(b.x, b.y, b.width, b.height);
-        }
-    }
+
 
     /**
      * Return this node's location.
